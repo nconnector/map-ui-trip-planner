@@ -33,3 +33,4 @@ jobs:
                       ssh-add ~/ssh-key
                       git checkout api
                       git pull
+                      npm install
