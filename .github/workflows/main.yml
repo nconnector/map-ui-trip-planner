@@ -29,4 +29,6 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd ~/map-ui-trip-planner
+            eval "$(ssh-agent)"
+            ssh-add ~/ssh-key
             git pull
