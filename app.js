@@ -9,7 +9,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-    res.send("Hello World!");
+    res.send("Response from Oracle vm-1");
 });
 
 app.listen(3000, () => {
